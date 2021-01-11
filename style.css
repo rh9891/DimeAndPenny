@@ -9,7 +9,13 @@
 }
 
 body {
-  background-color: #ffffff;
+  /* Photo credit to rawpixel.com */
+  background: url(assets/images/gridBackground.jpg) no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;

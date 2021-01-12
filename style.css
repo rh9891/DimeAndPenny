@@ -157,3 +157,20 @@ input[type="text"],
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-family: "Fraunces", serif;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Fraunces", serif;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-family: "Fraunces", serif;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Fraunces", serif;
+}

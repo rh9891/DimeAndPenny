@@ -26,6 +26,9 @@ body {
 }
 
 .container {
+  background-color: #eff0ef;
+  box-shadow: var(--box-shadow);
+  padding: 20px;
   margin: 30px auto;
   width: 350px;
 }
@@ -33,12 +36,17 @@ body {
 h1 {
   letter-spacing: 1px;
   margin: 0;
+  font-weight: 900;
 }
 
 h3 {
-  border-bottom: 1px solid #bbb;
+  border-bottom: 1px solid #bbbbbb;
   padding-bottom: 10px;
   margin: 40px 0 10px;
+}
+
+.subtitle {
+  margin: 10px;
 }
 
 h4 {
@@ -47,7 +55,7 @@ h4 {
 }
 
 .inc-exp-container {
-  background-color: #fbf7f2;
+  background-color: #fcf8f3;
   box-shadow: var(--box-shadow);
   padding: 20px;
   display: flex;
@@ -71,7 +79,7 @@ h4 {
 }
 
 .money.plus {
-  color: #b8eaba;
+  color: #a0e5a0;
 }
 
 .money.minus {
@@ -102,7 +110,7 @@ input[type="text"],
   border: 0;
   display: block;
   font-size: 16px;
-  margin: 10px 0 30px;
+  margin: 30px 0 30px;
   padding: 10px;
   width: 100%;
 }
@@ -110,6 +118,10 @@ input[type="text"],
 .btn:focus,
 .delete-btn:focus {
   outline: 0;
+}
+
+.additional-note {
+  font-size: 12px;
 }
 
 .list {
@@ -130,7 +142,7 @@ input[type="text"],
 }
 
 .list li.plus {
-  border-right: 5px solid #b8eaba;
+  border-right: 5px solid #a0e5a0;
 }
 
 .list li.minus {
@@ -158,19 +170,23 @@ input[type="text"],
   opacity: 1;
 }
 
+/* CSS change for the placeholder text across browsers. */
+/* Chrome/Opera/Safari */
 ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
   font-family: "Fraunces", serif;
 }
+
+/* Firefox 19+ */
 ::-moz-placeholder {
-  /* Firefox 19+ */
   font-family: "Fraunces", serif;
 }
+
+/* IE 10+ */
 :-ms-input-placeholder {
-  /* IE 10+ */
   font-family: "Fraunces", serif;
 }
+
+/* Firefox 18- */
 :-moz-placeholder {
-  /* Firefox 18- */
   font-family: "Fraunces", serif;
 }

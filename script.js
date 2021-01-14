@@ -16,6 +16,44 @@ const sampleTransactions = [
 
 let transactions = sampleTransactions;
 
+// Function to add transaction.
+addTransaction = (event) => {
+  event.preventDefault();
+
+  if (text.value.trim() === "" || amount.value.trim() === "") {
+    // Gets the snackbar.
+    const notification = document.getElementById("snackbar");
+
+    // Adds the "show" class to snackbar.
+    notification.className = "show";
+
+    // After 3 seconds, removes the show class from snackbar.
+    setTimeout(() => {
+      notification.className = notification.className.replace("show", "");
+    }, 3000);
+  } else {
+    const transaction = {
+      id: generateID(),
+      text: text.value,
+      amount: +amount.value,
+    };
+
+    transactions.push(transaction);
+
+    addTransactionToDOM(transaction);
+
+    updateValues();
+
+    text.value = "";
+    amount.value = "";
+  }
+};
+
+// Function to generate a random ID.
+generateID = () => {
+  return Math.floor(Math.random() * 100000000);
+};
+
 // Function to add transaction to DOM list.
 addTransactionToDOM = (transaction) => {
   // Gets sign of the amount dependent on if the number is less than or greater than zero.
@@ -63,3 +101,6 @@ init = () => {
 };
 
 init();
+
+// Event listener for the submit button.
+form.addEventListener("submit", addTransaction);

@@ -66,7 +66,9 @@ addTransactionToDOM = (transaction) => {
 
   item.innerHTML = `${transaction.text} <span>${sign}${Math.abs(
     transaction.amount
-  )}</span> <button class="delete-btn">x</button>`;
+  )}</span> <button class="delete-btn" onclick="deleteTransaction(${
+    transaction.id
+  })">x</button>`;
 
   list.appendChild(item);
 };
@@ -92,6 +94,13 @@ updateValues = () => {
   money_minus.innerText = `$${expense}`;
 };
 
+// Function to delete transaction (by id).
+deleteTransaction = (id) => {
+  transactions = transactions.filter((transaction) => transaction.id !== id);
+
+  init();
+};
+
 // Function to initialize application.
 init = () => {
   list.innerHTML = "";
@@ -102,5 +111,5 @@ init = () => {
 
 init();
 
-// Event listener for the submit button.
+// Event listener for the "Add Transaction" button.
 form.addEventListener("submit", addTransaction);

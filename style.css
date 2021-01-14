@@ -39,7 +39,8 @@ h1 {
   font-weight: 900;
 }
 
-#balance {
+.balance,
+.subtitle-balance {
   text-align: center;
 }
 

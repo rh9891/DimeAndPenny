@@ -39,6 +39,10 @@ h1 {
   font-weight: 900;
 }
 
+#balance {
+  text-align: center;
+}
+
 h3 {
   border-bottom: 1px solid #bbbbbb;
   padding-bottom: 10px;

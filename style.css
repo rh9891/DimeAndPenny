@@ -83,11 +83,13 @@ h4 {
   margin: 5px 0;
 }
 
-.money.plus {
+.money.plus,
+.balance.plus {
   color: #a0e5a0;
 }
 
-.money.minus {
+.money.minus,
+.balance.minus {
   color: #eb9c9b;
 }
 

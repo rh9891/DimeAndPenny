@@ -92,6 +92,14 @@ updateValues = () => {
   balance.innerText = `$${total}`;
   money_plus.innerText = `$${income}`;
   money_minus.innerText = `$${expense}`;
+
+  balanceColorChange(total);
+};
+
+// Function to make a color change to the balance dependent on negative or positive value.
+balanceColorChange = (total) => {
+  balance.classList.remove("minus");
+  balance.classList.add(total < 0 ? "minus" : "plus");
 };
 
 // Function to delete transaction (by id).

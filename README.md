@@ -16,40 +16,46 @@
 
 ## Description
 
-Dime and Penny is a mobile-responsive, budget tracking application.
+Dime and Penny is a mobile-responsive, budget tracking application. (It is the vanilla javascript version of [Dime and Nickel](https://github.com/rh9891/DimeAndNickel).) The dynamically updated application manipulates the DOM through its utilization of array methods (filter() and reduce() methods) and local storage.
 
 ## User Story
 
 ```
-AS A
-I WANT
-SO THAT I
+AS A user
+I WANT to track items I purchase (and their cost) and calculate the amount of money spent over time
+SO THAT I can manage my daily spending efficiently.
 ```
 
 ## Features of the Application
 
 ```
-GIVEN
-WHEN
-THEN
+GIVEN an expense-tracking application
+WHEN I want to add an income
+THEN I insert a positive amount with a description of the transaction and add the transaction.
 
-WHEN
-THEN
+WHEN I want to track an expense
+THEN I insert a negative amount with a description of the transaction and add the transaction.
 
-WHEN
-THEN
+WHEN I add an expense
+THEN the transaction is displayed under "Recent Transactions" and marked in red.
 
+WHEN I add an income
+THEN the transaction is displayed under "Recent Transactions" and marked in green.
+
+WHEN I hover over a listed transaction
+THEN an X will be displayed that can be clicked to delete the transaction.
+
+WHEN I fail to input a transaction description and/or transaction amount
+THEN an alert is displayed describing the error.
 ```
 
 ## Preview of Dime and Penny
 
-![Dime and Penny Landing Page]()
-
-![Dime and Penny Preview]()
+![Dime and Penny Landing Page](assets/images/dimeAndPennyLandingPage.png)
 
 ## Links
 
-- [Deployed Application]()
+- [Deployed Application](https://dime-and-penny.herokuapp.com/)
 
 - [Github Repository](https://github.com/rh9891/DimeAndPenny)
 
@@ -60,7 +66,7 @@ Listed below are the frameworks, libraries, and guides that made building this a
 - [JavaScript](https://www.w3schools.com/js/default.asp)
 - [JavaScript Array filter() Method](https://www.w3schools.com/jsref/jsref_filter.asp)
 - [JavaScript Array reduce() Method](https://www.w3schools.com/jsref/jsref_reduce.asp)
-
+- [JavaScript HTML DOM](https://www.w3schools.com/js/js_htmldom.asp)
 - [Snackbar](https://www.w3schools.com/howto/howto_js_snackbar.asp)
 - [Traversy Media Tutorials](https://www.traversymedia.com)
 - [Window localStorage Property](https://www.w3schools.com/jsref/prop_win_localstorage.asp)

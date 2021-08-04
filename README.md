@@ -55,7 +55,7 @@ THEN an alert is displayed describing the error.
 
 ## Links
 
-- [Deployed Application](https://dime-and-penny.herokuapp.com/)
+- [Deployed Application](https://rh9891.github.io/DimeAndPenny/)
 
 - [Github Repository](https://github.com/rh9891/DimeAndPenny)
 

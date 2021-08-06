@@ -16,7 +16,7 @@
 
 ## Description
 
-Dime and Penny is a mobile-responsive, budget tracking application. (It is the vanilla javascript version of [Dime and Nickel](https://github.com/rh9891/DimeAndNickel).) The dynamically updated application manipulates the DOM through its utilization of array methods (filter() and reduce() methods) and local storage.
+Dime and Penny is a mobile-responsive, budget tracking application. (It is the vanilla javascript version of [Dime and Nickel](https://github.com/rh9891/DimeAndNickel).) The dynamically updated application manipulates the DOM through its utilization of array methods (`filter()` and `reduce()` methods) and local storage.
 
 ## User Story
 

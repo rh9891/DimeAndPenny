@@ -2,6 +2,7 @@
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellowgreen)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Responsive](https://img.shields.io/badge/Responsive-Mobile--First-blue)  
 
 ## Table of Contents
 
@@ -54,7 +55,7 @@ THEN an alert is displayed describing the error.
 
 The following animation demonstrates the complete application functionality:
 
-![Dime and Penny Functionality]()
+![Dime and Penny Functionality](https://github.com/user-attachments/assets/e25210fe-b569-4098-a8a0-fb6778e3da19)
 
 ## Links
 

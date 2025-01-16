@@ -52,9 +52,13 @@ THEN an alert is displayed describing the error.
 
 ![Dime and Penny Landing Page](assets/images/dimeAndPennyLandingPage.png)
 
+The following animation demonstrates the complete application functionality:
+
+![Dime and Penny Functionality]()
+
 ## Links
 
-- [Deployed Application](https://rh9891.github.io/DimeAndPenny/)
+- [Deployed Application](https://dime-and-penny.netlify.app/)
 
 - [Github Repository](https://github.com/rh9891/DimeAndPenny)
 
